@@ -131,11 +131,11 @@ h4 {
 /* Tablets */
 @media (max-width: 992px) {
   .navigate {
-    gap: 30px;
+    gap: 35px;
   }
 
   .h1 {
-    font-size: 26px;
+    font-size: 28px;
   }
 }
 
@@ -147,13 +147,18 @@ h4 {
   }
 
   .navigate {
-    gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 20px;
+  }
+
+  /* HERO IS NOW LARGER */
+  header {
+    min-height: 110vh;
   }
 
   .h1 {
-    font-size: 22px;
+    font-size: 26px;
   }
 
   .paragraph {
@@ -168,17 +173,18 @@ h4 {
     gap: 12px;
   }
 
+  /* HERO EVEN LARGER ON SMALL SCREENS */
+  header {
+    min-height: 120vh;
+  }
+
   .h1 {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   button {
     width: 100%;
     max-width: 280px;
-  }
-
-  .png img {
-    height: 35px;
   }
 }
 
