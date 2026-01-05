@@ -24,6 +24,9 @@ nav {
   align-items: center;
   padding: 20px 40px;
 }
+.hamburger {
+  display: none;
+}
 .logo {
   font-size: 26px;
   font-weight: bold;
@@ -54,6 +57,13 @@ nav {
   padding: 0 20px;
   text-align: center;
   color: white;
+}
+.avatar img {
+  margin-top: 50px;
+  width: 300px; /* makes the image smaller */
+  height: 300px; /* keep same as width for perfect circle */
+  border-radius: 50%; /* makes it round */
+  object-fit: cover;
 }
 .h1 {
   max-width: 650px;
@@ -152,7 +162,19 @@ h4 {
     gap: 20px;
   }
 
-  /* HERO IS NOW LARGER */
+  .hamburger {
+    display: block;
+    font-size: 28px;
+    cursor: pointer;
+  }
+  .navigate {
+    position: absolute;
+    top: 70px;
+    display: none;
+    flex-direction: column;
+    padding: 20px;
+  }
+  /* HERO LARGER */
   header {
     min-height: 110vh;
   }
@@ -173,7 +195,7 @@ h4 {
     gap: 12px;
   }
 
-  /* HERO EVEN LARGER ON SMALL SCREENS */
+  /* HERO LARGER ON SMALL SCREENS */
   header {
     min-height: 120vh;
   }
