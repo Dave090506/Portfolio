@@ -271,3 +271,43 @@ h5 {
     max-width: 300px;
   }
 }
+/*FOOTER*/
+footer {
+  background-color: #282727;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+}
+.contact {
+  margin-top: 40px;
+  margin-left: 160px;
+  font-size: 30px;
+}
+.details {
+  margin-left: 160px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.detailsp {
+  width: 60%;
+  line-height: 1.5;
+  font-size: 19px;
+  color: #c2c2c2;
+}
+.email {
+  display: flex;
+  gap: 10px;
+  color: white;
+}
+.email_link {
+  text-decoration: none;
+  color: white;
+}
+.media {
+  display: flex;
+  gap: 40px;
+}
